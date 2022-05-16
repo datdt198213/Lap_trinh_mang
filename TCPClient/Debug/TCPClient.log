@@ -1,0 +1,11 @@
+﻿TCPClient.obj : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__htons@4 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__inet_addr@4 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__send@16 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function _main
+TCPClient.obj : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function _main
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\Debug\TCPClient.exe : fatal error LNK1120: 10 unresolved externals

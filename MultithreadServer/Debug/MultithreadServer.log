@@ -1,0 +1,2 @@
+﻿  MultithreadServer.cpp
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(40,21): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

@@ -1,0 +1,3 @@
+﻿  Practice_TCPServer.cpp
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\Practice_TCPServer\Practice_TCPServer.cpp(41,18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\Practice_TCPServer\Practice_TCPServer.cpp(55,27): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

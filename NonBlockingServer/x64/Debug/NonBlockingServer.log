@@ -1,0 +1,3 @@
+﻿  NonBlockingServer.cpp
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\NonBlockingServer\NonBlockingServer.cpp(22,7): warning C4101: 'buf': unreferenced local variable
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\NonBlockingServer\NonBlockingServer.cpp(37): error C4700: uninitialized local variable 'numberClients' used

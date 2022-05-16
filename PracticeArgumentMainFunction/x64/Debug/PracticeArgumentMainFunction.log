@@ -1,0 +1,2 @@
+﻿  PracticeArgumentMainFunction.cpp
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\PracticeArgumentMainFunction\PracticeArgumentMainFunction.cpp(31,25): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings

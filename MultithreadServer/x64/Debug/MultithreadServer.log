@@ -1,0 +1,13 @@
+﻿  MultithreadServer.cpp
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(26,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(26,10): message : consider using '%lld' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(26,10): message : consider using '%Id' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(26,10): message : consider using '%I64d' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(39,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(50,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(74,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(74,10): message : consider using '%lld' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(74,10): message : consider using '%Id' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(74,10): message : consider using '%I64d' in the format string
+C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\MultithreadServer\MultithreadServer.cpp(55): warning C4715: 'ClientThread': not all control paths return a value
+  MultithreadServer.vcxproj -> C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\x64\Debug\MultithreadServer.exe
