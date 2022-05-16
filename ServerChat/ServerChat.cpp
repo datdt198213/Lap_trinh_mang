@@ -98,7 +98,7 @@ DWORD WINAPI ClientThread(LPVOID lpParam)
 					else
 					{
 						char mess[1000];
-						strcpy(mess, clients[i].second);
+						strcpy(mess, clients[i].second);	
 						strcat(mess, ": ");
 						strcat(mess, buf);
 
