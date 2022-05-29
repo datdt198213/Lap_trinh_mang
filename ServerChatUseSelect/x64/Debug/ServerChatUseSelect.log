@@ -1,0 +1,31 @@
+﻿  ServerChatUseSelect.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(65,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(65,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(65,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(65,10): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(69,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(117,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(117,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(117,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(117,10): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(135,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(173,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(184,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(205,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(211,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(225,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(245,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(245,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(245,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(245,10): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(256,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(267,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(280,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(287,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(351,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(360,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(373,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(381,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(291): warning C4715: 'HandleThread': not all control paths return a value
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatUseSelect\ServerChatUseSelect.cpp(324): warning C4172: returning address of local variable or temporary: x
+  ServerChatUseSelect.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\ServerChatUseSelect.exe
