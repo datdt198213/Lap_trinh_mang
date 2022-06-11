@@ -1,0 +1,34 @@
+﻿  VD12.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(18,37): error C2440: 'initializing': cannot convert from 'const char [12]' to 'CHAR *'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(18,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(22,25): error C2275: 'WNDPROC': illegal use of this type as an expression
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(91): message : see declaration of 'WNDPROC'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(22,33): error C2146: syntax error: missing ';' before identifier 'WinProc'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(22,33): error C2065: 'WinProc': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(23,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(26,3): error C2440: '=': cannot convert from 'HINSTANCE' to 'int'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(26,3): message : There is no context in which this conversion is possible
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(27,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(28,14): error C2440: '=': cannot convert from 'HICON (__cdecl *)(HINSTANCE,LPCWSTR)' to 'HICON'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(28,5): message : There is no context in which this conversion is possible
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(28,14): error C2143: syntax error: missing ';' before 'constant'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(29,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(30,16): error C2440: '=': cannot convert from 'HCURSOR (__cdecl *)(HINSTANCE,LPCWSTR)' to 'HCURSOR'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(30,5): message : There is no context in which this conversion is possible
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(30,16): error C2143: syntax error: missing ';' before 'constant'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(31,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(32,5): error C2275: 'HBRUSH': illegal use of this type as an expression
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\windef.h(74): message : see declaration of 'HBRUSH'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(32,12): error C2146: syntax error: missing ';' before identifier 'GetStockObject'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(32,27): error C2143: syntax error: missing ';' before 'constant'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(32,12): warning C4551: function call missing argument list
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(33,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(35,3): error C2146: syntax error: missing ';' before identifier 'wndclass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(36,5): error C2275: 'LPCWSTR': illegal use of this type as an expression
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(484): message : see declaration of 'LPCWSTR'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(36,13): error C2146: syntax error: missing ';' before identifier 'providerClass'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(37,3): error C2143: syntax error: missing ';' before 'if'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(38,4): error C2061: syntax error: identifier 'RegisterClassW'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(38,27): error C2059: syntax error: ')'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(42,14): error C2065: 'CreateWindowW': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD12\VD12.cpp(42,27): error C2146: syntax error: missing ')' before identifier 'LPCWSTR'

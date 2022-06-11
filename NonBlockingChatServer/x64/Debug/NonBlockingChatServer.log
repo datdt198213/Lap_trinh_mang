@@ -1,0 +1,17 @@
+﻿  NonBlockingChatServer.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(56,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(56,11): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(56,11): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(56,11): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(61,20): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(61,20): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(61,20): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(61,20): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(63,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(65,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(85,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(85,12): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(85,12): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(85,12): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\NonBlockingChatServer\NonBlockingChatServer.cpp(88,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  NonBlockingChatServer.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\NonBlockingChatServer.exe

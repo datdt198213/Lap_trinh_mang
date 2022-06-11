@@ -1,113 +1,126 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include<stdio.h>	
 #include<WinSock2.h>
-#include<utility>
 
-#pragma comment(lib, "ws2_32")
 #pragma warning(disable:4996)
+#pragma comment(lib, "ws2_32")
 
-int numberClient = 0;
-char** id_array;
+char* clientId[64];
+SOCKET clientLogin[64];
+int numLogin = 0, numId = 0;
 
-std::pair<SOCKET, char*> clients[64];
-
-DWORD WINAPI ClientThread(LPVOID lpParam);
-
+// khoi tao ham ThreadNew de tao mot luong moi
+DWORD WINAPI ThreadNew(LPVOID param);
 int main()
 {
+	// Khoi tao phien ban
 	WSADATA wsa;
 	WSAStartup(MAKEWORD(2, 2), &wsa);
 
-	SOCKADDR_IN sockaddr_in;
-	sockaddr_in.sin_family = AF_INET;
-	sockaddr_in.sin_addr.s_addr = htonl(INADDR_ANY);
-	sockaddr_in.sin_port = htons(8000);
+	// khoi tao dia chi
+	sockaddr_in addrIn;
+	addrIn.sin_family = AF_INET;
+	addrIn.sin_addr.s_addr = htonl(INADDR_ANY);
+	addrIn.sin_port = htons(8000);
 
+	// tao socket listener
 	SOCKET listener = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-	bind(listener, (sockaddr*)&sockaddr_in, sizeof(sockaddr_in));
-	listen(listener, 2);
 
+	// Gan dia chi addr vao trong socket listener
+	bind(listener, (sockaddr*)&addrIn, sizeof(addrIn));
+
+	// cho server trong che do cho
+	listen(listener, 5);
+
+	// thuc hien chap nhan ket noi tu cac client
 	while (1)
 	{
+		// tao socket client chap nhan ket noi den listener
 		SOCKET client = accept(listener, NULL, NULL);
-		CreateThread(0, 0, ClientThread, &client, 0, 0);
+		// Hien thi ra cac client da ket noi den server
+		printf("Client da ket noi: %d\n", client);
+		// tao luong moi de xu ly du lieu khi client gui den
+		CreateThread(0, 0, ThreadNew, &client, 0, 0);
 	}
-
-	closesocket(listener);
-	WSACleanup();
 }
 
-DWORD WINAPI ClientThread(LPVOID lpParam)
+DWORD WINAPI ThreadNew(LPVOID param)
 {
-	SOCKET client = *(SOCKET*)lpParam;
+	// ep kieu LPVOID -> SOCKET
+	SOCKET client = *(SOCKET*)param;
+	
+	char buf[256], header[256], content[256], tmp[256];
+	const char* headerPattern = "client_id:";
 	int ret;
-	char buf[256];
 
-	if (client == INVALID_SOCKET)
-	{
-		ret = GetLastError();
-	}
-	else
-	{
-		printf("New client connection: %d \n", client);
-		clients[numberClient].first = client;
-		clients[numberClient].second = NULL;
-		numberClient++;
-		char hello_msg[50] = "Enter client_id:xxxxxx to chat: ";		// create hello sentences
-		send(client, hello_msg, strlen(hello_msg), 0);
-	}
-
+	// Kiem tra dang nhap tu client
 	while (1)
 	{
-		ret = recv(client, buf, sizeof(buf) - 1, 0);
-		if (ret == SOCKET_ERROR)
+		ret = recv(client, buf, sizeof(buf), 0);
+		if (ret <= 0)
+			break;
+
+		// bo di ki tu xuong dong khi client gui len
+		buf[ret - 1] = 0;
+		printf("\nDu lieu nhan duoc tu client %d: %s\n", client, buf);
+		// kiem tra tinh trang dang nhap
+		// cat chuoi thanh cac chuoi nho hon duoc chia boi dau cach "client_id: xxxxxx"
+		ret = sscanf(buf, "%s %s %s", header, content, tmp); // ki tu tmp duoc hieu la ki tu dung de lay ra cac ki tu sau xxxxxx
+
+		// neu chuoi nhan vao khong phai la 2 ki tu thi yeu cau nhap lai
+		if (ret != 2)
 		{
-			ret = WSAGetLastError();
-			for (int i = 0; i < numberClient; i++)
-			{
-				if (client == clients[i].first)
-				{
-					printf("Error with %d, error code %d, Close connection", client, ret);
-					closesocket(client);
-					numberClient--;
-					for (int j = i; j < numberClient; j++) clients[j] = clients[j + 1];
-				}
-			}
+			const char* msg = "\nDang nhap that bai! Hay dang nhap theo dinh dang \"client_id: xxxxxx\" voi xxxxxx la ten cua ban\n";
+			send(client, msg, strlen(msg), 0);
 		}
 		else
 		{
-			buf[ret] = 0;
-
-			for (int i = 0; i < numberClient; i++)
+			// chuoi nhan duoc la 2 ki tu
+			// dung dinh dang theo "client_id:"
+			// dang nhap thanh cong thi khong kien tra nua: thoat vong lap
+			if (strcmp(header, headerPattern) == 0)
 			{
-				if (client == clients[i].first)
-				{
-					if (clients[i].second == NULL)
-					{
-						char str_check[50] = "client_id: ";
-						if (strncmp(buf, str_check, strlen(str_check)) == 0)
-						{
-							char* name = new char[100];
-							int name_length = strlen(buf) - strlen(str_check) - 1; // -1 de bo di ki tu xuong dong trong luc nhap du lieu vao
-							memcpy(name, buf + strlen(str_check), name_length);
-							name[name_length] = 0;
-							clients[i].second = name;
-						}
-					}
-					else
-					{
-						char mess[1000];
-						strcpy(mess, clients[i].second);	
-						strcat(mess, ": ");
-						strcat(mess, buf);
+				const char* msg = "Dang nhap thanh cong, hay gui mot tin nhan gi do!\n";
+				send(client, msg, strlen(msg), 0);
 
-						for (int j = 0; j < numberClient; j++)
-							if (j != i) 	send(clients[j].first, mess, strlen(mess), 0);
-					}
-				}
+				// them client hien tai vao trong clientLogin
+				clientLogin[numLogin++] = client;
+				// them id hien tai vao trong danh sach id
+				clientId[numId++] = content;
+
+				printf("NumId: %d, NumLogin: %d\n", numLogin, numId);
+				break;
+			} 
+			else
+			{
+				const char* msg = "\nDang nhap that bai! Hay dang nhap theo dinh dang \"client_id: xxxxxx\" voi xxxxxx la ten cua ban\n";
+				send(client, msg, strlen(msg), 0);
 			}
 		}
+	}
+
+	// xu ly du lieu duoc client gui den
+	while (1)
+	{
+		ret = recv(client, buf, sizeof(buf), 0);
+		if (ret <= 0)
+			break;
+		// 
+		buf[ret - 1] = 0;
+		printf("\nDu lieu nhan duoc tu client %d: %s", client, buf);
+	
+		// noi chuoi hien tai voi clientId
+		int idx = 0;
+		for (; idx < numLogin; idx++)
+			if (clientLogin[idx] == client)
+				break;
+
+		char sendBuf[256];
+		sprintf(sendBuf, "%s: %s", clientId[idx], buf);
+		// neu du lieu nhan duoc hop le thi gui cho tat ca cac server da login vao he thong
+		
+		for (int i = 0; i < numLogin; i++)
+			if (clientLogin[i] != client)
+				send(clientLogin[i], sendBuf, strlen(sendBuf), 0);
 	}
 	closesocket(client);
 }

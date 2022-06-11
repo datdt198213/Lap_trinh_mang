@@ -1,0 +1,19 @@
+﻿  VD13.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(140,35): error C2065: 'VM_USER': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(140,55): error C2660: 'WSAAsyncSelect': function does not take 3 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WinSock2.h(2680,1): message : see declaration of 'WSAAsyncSelect'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(143,39): error C2065: 'IDC_LIST_MESSAGE': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(145,40): error C2065: 'IDC_LIST_CLIENT': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(147,40): error C2065: 'IDC_EDIT_MESSAGE': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(149,41): error C2065: 'IDC_BUTTON_SEND': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(167,10): error C2065: 'VM_USER': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(181,22): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(182,43): error C2065: 'IDC_LIST_CLIENT': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(190,43): error C2065: 'IDC_LIST_MESSAGE': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(204,18): error C2065: 'IDC_BUTTON_SEND': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(204,18): error C2131: expression did not evaluate to a constant
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(204,18): message : a non-constant (sub-)expression was encountered
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(207,39): error C2065: 'IDC_EDIT_MESSAGE': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(208,51): error C2065: 'IDC_LIST_CLIENT': undeclared identifier
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(209,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD13\VD13.cpp(204,1): error C2051: case expression not constant

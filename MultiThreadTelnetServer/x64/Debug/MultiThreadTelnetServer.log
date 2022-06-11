@@ -1,0 +1,11 @@
+﻿  MultiThreadTelnetServer.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(26,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(26,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(26,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(26,10): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(61,9): warning C4101: 'line': unreferenced local variable
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(85,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(85,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(85,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\MultiThreadTelnetServer\MultiThreadTelnetServer.cpp(85,10): message : consider using '%I64d' in the format string
+  MultiThreadTelnetServer.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\MultiThreadTelnetServer.exe

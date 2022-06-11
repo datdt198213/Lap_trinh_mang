@@ -1,0 +1,4 @@
+﻿  VD.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD\VD.cpp(37,44): error C2664: 'int recv(SOCKET,char *,int,int)': cannot convert argument 4 from 'timeval *' to 'int'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD\VD.cpp(37,41): message : There is no context in which this conversion is possible
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WinSock2.h(2002,1): message : see declaration of 'recv'

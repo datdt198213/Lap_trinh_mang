@@ -1,0 +1,3 @@
+﻿  VD16.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\VD16\VD16.cpp(56): warning C4715: 'HandleThread': not all control paths return a value
+  VD16.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\VD16.exe

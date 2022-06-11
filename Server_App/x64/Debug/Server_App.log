@@ -1,0 +1,23 @@
+﻿  Server_App.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(195,22): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(216,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(247,23): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(248,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(324,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(330,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(336,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(349,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(362,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(372,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(374,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(384,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(386,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(391,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(403,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(414,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(416,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(426,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(433,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(446,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\Server_App\Server_App.cpp(453,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Server_App.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\Server_App.exe

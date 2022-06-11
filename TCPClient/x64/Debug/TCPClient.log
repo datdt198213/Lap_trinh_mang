@@ -1,3 +1,3 @@
 ﻿  TCPClient.cpp
-C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\TCPClient\TCPClient.cpp(151,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Tien Dat\Desktop\Workspace\HUST\CODE\Lap_trinh_mang\TCPClient\TCPClient\TCPClient.cpp(120,28): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\TCPClient\TCPClient.cpp(151,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\TCPClient\TCPClient.cpp(120,28): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings

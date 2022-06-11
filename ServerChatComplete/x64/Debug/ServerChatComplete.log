@@ -1,0 +1,12 @@
+﻿  ServerChatComplete.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(41,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(41,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(41,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(41,10): message : consider using '%I64d' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(31,17): warning C4101: 'cmd': unreferenced local variable
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(31,26): warning C4101: 'id': unreferenced local variable
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(66,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(66,10): message : consider using '%lld' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(66,10): message : consider using '%Id' in the format string
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\ServerChatComplete\ServerChatComplete.cpp(66,10): message : consider using '%I64d' in the format string
+  ServerChatComplete.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\ServerChatComplete.exe
