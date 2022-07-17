@@ -1,0 +1,7 @@
+﻿  CalculatorServer.cpp
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\CalculatorServer\CalculatorServer.cpp(15,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\CalculatorServer\CalculatorServer.cpp(27,24): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\CalculatorServer\CalculatorServer.cpp(33,57): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\CalculatorServer\CalculatorServer.cpp(72,16): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\CalculatorServer\CalculatorServer.cpp(77,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CalculatorServer.vcxproj -> C:\Workspace\HUST\CODE\Lap_trinh_mang\Lap_trinh_mang\x64\Debug\CalculatorServer.exe
